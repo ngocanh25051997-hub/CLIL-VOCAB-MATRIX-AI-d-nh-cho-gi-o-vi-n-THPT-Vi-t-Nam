@@ -1,0 +1,6 @@
+{
+  "name": "CLIL VOCAB MATRIX AI",
+  "description": "Ứng dụng hỗ trợ giáo viên THPT Việt Nam thiết kế tài liệu học thuật tiếng Anh theo phương pháp CLIL cho Toán, Vật lí, Hóa học, Sinh học và STEM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
