@@ -31,8 +31,10 @@ jobs:
         run: npm install --legacy-peer-deps
 
       - name: Build website
-        run: npm run build -- --base="/${GITHUB_REPOSITORY#*/}/"
-
+        run: |
+          mkdir -p dist
+          unzip -o BILINGUAL_TEACHING_HUB_AI_GITHUB_PAGES.zip -d dist
+          test -f dist/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
